@@ -33,12 +33,23 @@
       </nav>
     </header>
 
-    <script>
-      const hamburger = document.querySelector(".hamburger");
-      hamburger.addEventListener("click", function () {
-        const navigation = document.querySelector(".navigation");
-        navigation.classList.toggle("active");
-      });
+    <main>
+      <section class="hero__section">
+        <img
+          src="src/Image/small-chairl.png"
+          alt="Chair image"
+          class="hero__section--image"
+        />
+        <div class="hero__section--description">
+          <h1 class="primary--heading">Futoon</h1>
+          <p>
+            Lorem ipsum dolor sit, amet  consec <br>tetur adipisicing elit. Ut, error!
+          </p>
+          <a href="#" class="secondary__btn">Shop now</a>
+        </div>
+      </section>
+   </main>
     </script>
+    <script defer src="src/js/script.js"></script>
   </body>
 </html>

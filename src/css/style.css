@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,10 +8,48 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
-  list-style: none; }
+  list-style: none;
+  background-color: #ede9e5; }
 
+.primary--heading {
+  font-size: 5.2rem;
+  font-weight: 700;
+  color: #271a11;
+  text-transform: uppercase; }
+
+/*
+
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+.hero__section {
+  margin-left: 9.6rem;
+  margin-right: 9.6rem;
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 13.2rem; }
+  .hero__section--image {
+    width: 40rem;
+    height: 40rem; }
+  .hero__section p {
+    font-size: 2rem;
+    font-weight: 500; }
+
+/*
+
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
 header {
   max-width: 100%;
   height: 8rem;
